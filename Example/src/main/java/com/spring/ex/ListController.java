@@ -3,5 +3,6 @@ package com.spring.ex;
 public class ListController {
 	// master 10:11
 	// youn1223 10:12
-	// 3rd 10:14 추가함
+	// youn1223 한줄 더 추가 10:38
+	
 }
