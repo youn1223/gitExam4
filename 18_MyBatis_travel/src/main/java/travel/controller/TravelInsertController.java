@@ -35,11 +35,11 @@ public class TravelInsertController {
 		System.out.println("test2 post방식 요청");
 		ModelAndView mav = new ModelAndView();
 
-		if(result.hasErrors()) {
-			mav.setViewName(getPage);
-			return mav;
-		}
-
+		
+		System.out.println("master 추가함");
+		System.out.println("master 추가함");
+		System.out.println("master 추가함");
+	
 		int cnt = -1;
 		cnt = travelDao.insertTravel(travel);
 		if(cnt != -1) {
