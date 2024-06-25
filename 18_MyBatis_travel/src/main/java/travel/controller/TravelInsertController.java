@@ -37,8 +37,9 @@ public class TravelInsertController {
 
 		
 		System.out.println("master 추가함");
+		System.out.println("kim 회원이 수정함");
 		System.out.println("master 추가함");
-		System.out.println("master 추가함");
+		System.out.println("kim 추가함");
 	
 		int cnt = -1;
 		cnt = travelDao.insertTravel(travel);
